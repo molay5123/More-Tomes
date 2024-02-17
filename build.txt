@@ -1,0 +1,3 @@
+displayName = Tomes Expanded
+author = Terraspark
+version = 0.1
