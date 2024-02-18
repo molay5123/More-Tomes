@@ -36,6 +36,13 @@ namespace MoreTomes.Content.Items.Weapons
             Item.value = Item.sellPrice(0, 3);
             Item.mana = 16;
         }
+           public override void AddRecipes()
+        {
+            Recipe recipe = CreateRecipe();
+            recipe.AddIngredient(ItemID.EnchantedSword, 1);
+            recipe.AddTile(TileID.Workbench);
+            recipe.Register();
+        }
     }
 
     public class EnchantedStar : ModProjectile
