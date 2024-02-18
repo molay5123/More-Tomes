@@ -6,12 +6,12 @@ Items: {
 
 	Hellfire: {
 		DisplayName: Hellfire
-		Tooltip: ""
+		Tooltip: Summons flames at the cursor
 	}
 
 	JunglesGift: {
 		DisplayName: Jungle's Gift
-		Tooltip: ""
+		Tooltip: shoots out spores
 	}
 }
 
