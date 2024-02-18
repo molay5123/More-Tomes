@@ -39,7 +39,9 @@ namespace MoreTomes.Content.Items.Weapons
            public override void AddRecipes()
         {
             Recipe recipe = CreateRecipe();
-            recipe.AddIngredient(ItemID.EnchantedSword, 1);
+            recipe.AddIngredient(ItemID.EnchantedBoomerang, 1);
+            recipe.AddIngredient(ItemID.Book, 1);
+            recipe.AddIngredient(ItemID.FallenStar, 1);
             recipe.AddTile(TileID.Workbench);
             recipe.Register();
         }
