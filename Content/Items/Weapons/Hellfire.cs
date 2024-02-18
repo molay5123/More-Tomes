@@ -32,7 +32,7 @@ namespace MoreTomes.Content.Items.Weapons
             Item.rare = ItemRarityID.Orange;
 
             Item.value = Item.sellPrice(0, 3);
-            Item.mana = 3;
+            Item.mana = 4;
         }
 
         public override void AddRecipes()
