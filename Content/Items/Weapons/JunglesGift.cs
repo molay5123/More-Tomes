@@ -53,7 +53,7 @@ namespace MoreTomes.Content.Items.Weapons
         public override void AddRecipes()
         {
             Recipe recipe = CreateRecipe();
-            recipe.AddIngredient(ItemID.Stinger, 10);
+            recipe.AddIngredient(ItemID.Stinger, 7) // stingers are so annoying to grind - terra
             recipe.AddIngredient(ItemID.JungleSpores, 12);
             recipe.AddIngredient(ItemID.Vine, 3);
             recipe.AddTile(TileID.Anvils);
