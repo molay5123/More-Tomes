@@ -27,7 +27,7 @@ namespace MoreTomes.Content.Items.Weapons
             Item.height = 40;
             Item.scale = 1f;
 
-            Item.damage = 38;
+            Item.damage = 14;
             Item.knockBack = 4.5f;
 
             Item.rare = ItemRarityID.Green;
